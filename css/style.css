@@ -1,0 +1,293 @@
+@charset "utf-8";
+/* start reset css */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+html,
+textarea {
+    overflow: auto;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+img{
+    vertical-align:top;
+}
+:focus{
+    outline:none;
+}
+/* end reset css */
+
+.wraper {
+	margin: 0 auto;
+	width: 1021px;
+	border-left: 1px solid #000;
+	border-right: 1px solid #000; 
+}
+.topHead {
+	height: 70px;
+	background: #191919;
+	width: 1021px;
+	overflow: hidden;
+	border-bottom: 1px solid #728800;
+}
+.topHead img {
+	float: left;
+	margin: 20px 0 0 101px;
+}
+#customer {
+	float: right;
+	margin: 0 101px 0 0;
+}
+#customer h3 {
+	float: right;
+	margin-top: 25px;
+}
+#customer h3 a {
+	font: 12px Arial, Helvetica, sans-serif;
+	color: #a8bf1e;
+	font-weight: bold;
+	padding: 5px 35px;
+	background: #373737;
+	border: 1px solid #2d2d2d;
+	border-radius: 3px;
+	text-decoration: none;
+}
+#customer h3 a:hover {
+	text-decoration: underline;
+}
+#customer p {
+	font: 11px Arial, Helvetica, sans-serif;
+	color: #4c4c4c;
+	font-weight: bold;
+	float: left;
+	padding: 25px 15px 0 0;
+}
+.topHead span {
+	color: #8c8c8c;
+}
+.topHead a{
+	text-decoration: none;
+	color: #8c8c8c;
+}
+.topHead a:hover {
+	text-decoration: underline;
+}
+.bottomHead {
+	overflow: hidden;
+	background: #adc702; /* для браузеров без css3 */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#87a10b', endColorstr='#adc702'); /* для IE */
+    background: -webkit-gradient(linear, left top, left bottom, from(#87a10b), to(#adc702)); /* для webkit */
+    background: -moz-linear-gradient(top, #87a10b, #adc702); /* для firefox 3.6+ */
+	border-bottom: 1px solid #fff;
+	padding-right: 101px;
+}
+nav {
+	float: left;
+	padding: 20px 0 20px 101px;
+	width: 921px;
+	background: #adc702; /* для браузеров без css3 */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#adc702', endColorstr='#87a10b'); /* для IE */
+    background: -webkit-gradient(linear, left top, left bottom, from(#adc702), to(#87a10b)); /* для webkit */
+    background: -moz-linear-gradient(top, #adc702, #87a10b); /* для firefox 3.6+ */
+	border-bottom: 1px #c0d926 solid;
+}
+nav a {
+	font: 12px Arial, Helvetica, sans-serif;
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 7px 20px;
+	margin-right: 10px;
+}
+nav a:hover, nav a:active {
+	background: #8aa014;
+	border-radius: 10px;
+}
+.bottomHead img {
+	float: left;
+	margin: 40px 17px 0 101px;
+}
+.title {
+	float: right;
+	width:390px;
+}
+.title h1 {
+	margin: 73px 0 18px 0;
+	padding-bottom: 18px;
+	border-bottom: 1px solid #91a419;
+}
+.title h1 a {
+	font: 22px Arial, Helvetica, sans-serif;
+	color: #113848;
+	font-weight: bold;
+	line-height: 1;
+	text-decoration: none;
+}
+.title p a {
+	font: 14px Arial, Helvetica, sans-serif;
+	color: #353535;
+	line-height: 1.3;
+	text-decoration: none;
+}
+.title p a:hover, .title h1 a:hover {
+	text-decoration: underline;
+}
+section {
+	overflow: hidden;
+	background: #e9e9e9; /* для браузеров без css3 */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e9e9e9', endColorstr='#fff'); /* для IE */
+    background: -webkit-gradient(linear, left top, left bottom, from(#e9e9e9), to(#fff)); /* для webkit */
+    background: -moz-linear-gradient(top, #e9e9e9, #fff); /* для firefox 3.6+ */
+}
+.leftCol {
+	float: left;
+	width: 220px;
+	margin: 45px 0 38px 101px;
+}
+.title_left, .title_right, .title_center {
+	display: block;
+	background-image: url(../img/leftColPic.png);
+	background-repeat: no-repeat;
+	height: 60px;
+}
+.title_right {
+	background-image: url(../img/rightColPic.png);
+}
+.title_center {
+	background-image: url(../img/centerColPic.png);
+}
+.title_left h2 a, .title_right h2 a, .title_center h2 a {
+	float: left;
+	font: 20px Arial, Helvetica, sans-serif;
+	color: #404040;
+	font-weight: bold;
+	margin: 10px 0 10px 55px;
+}
+.title_left h3 a, .title_right h3 a, .title_center h3 a {
+	font: 14px Arial, Helvetica, sans-serif;
+	color: #707070;
+	font-weight: bold;
+	float: left;
+	margin: 0 0 10px 55px;
+}
+.leftCol p, .rightCol p, .centerCol p {
+	clear: both;
+	font: 13px Arial, Helvetica, sans-serif;
+	color: #505050;
+	line-height: 1.5;
+}
+.leftCol a, .rightCol a, .centerCol a {
+	font: 13px Arial, Helvetica, sans-serif;
+	color: #b4cd22;
+	text-decoration: none;
+	float: right;
+	margin-top: 10px;
+}
+.leftCol a:hover, .rightCol a:hover, .centerCol a:hover, sidebar h2 a:hover, article h2 a:hover {
+	text-decoration: underline;
+}
+.rightCol {
+	float: right;
+	width: 220px;
+	margin: 45px 101px 38px 0;
+}
+.centerCol {
+	width: 220px;
+	float: left;
+	margin: 45px 0 38px 80px;
+}
+hr {
+	clear: both;
+	width: 819px;
+	margin-bottom: 25px;
+	color: #ececec;
+}
+.buttomCol {
+	clear: both;
+	overflow: hidden;
+	padding-bottom: 30px;
+}
+sidebar {
+	width: 420px;
+	float: left;
+	margin-left: 101px;
+}
+sidebar h2 a, article h2 a {
+	font: 16px Arial, Helvetica, sans-serif;
+	color: #404040;
+	font-weight: bold;
+	text-decoration: none;
+}
+sidebar h2, article h2 {
+	margin-bottom: 10px;
+}
+sidebar img {
+	padding: 4px;
+	border: 1px solid #ececec;
+	margin: 0 10px 10px 0;
+	float: left;
+}
+article {
+	float: right;
+	width: 390px;
+	margin-right: 101px;
+}
+article p {
+	font: 13px Arial, Helvetica, sans-serif;
+	color: #505050;
+	line-height: 1.5;
+}
+footer {
+	overflow: hidden;
+	height: 68px;
+	width: 1021px;
+	background: #191919;
+}
+footer img {
+	float: left;
+	margin: 25px 0 0 101px;
+}
+footer p {
+	font: 10px Arial, Helvetica, sans-serif;
+	color: #4b4b4b;
+	font-weight: bold;
+	float: left;
+	margin: 30px 0 0 20px;
+}
